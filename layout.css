@@ -127,6 +127,7 @@ p {
     width: 15vw;
     border-radius: 100%;
     text-align: center;
+
 }
 
 #muligheder:hover {
@@ -361,40 +362,40 @@ p {
     background-repeat: no-repeat;
 }
 
-.cont2 {
+.cont4 {
     background-color: #272727;
     background-image: url(img/portfolio/11430144_112524032418163_4914989312353504385_n%20copy.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cont2:hover {
+.cont4:hover {
     background-image: url(img/portfolio/11430144_112524032418163_4914989312353504385_n.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cont3 {
+.cont2 {
     background-color: #272727;
     background-image: url(img/portfolio/animation1%20copy.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cont3:hover {
+.cont2:hover {
     background-image: url(img/portfolio/animation1.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cont4 {
+.cont3 {
     background-color: #272727;
     background-image: url(img/portfolio/animation2%20copy.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cont4:hover {
+.cont3:hover {
     background-image: url(img/portfolio/animation2.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -516,9 +517,11 @@ p {
 #text h3 {
     font-family: "Oswald";
     font-weight: lighter;
-    margin: 0.5vw 0;
+    margin: 1vw 0 0.5vw;
     text-transform: uppercase;
     font-size: 12px;
+    color: #378891;
+    padding: 0 3%;
 }
 
 #text h4 {
@@ -526,6 +529,7 @@ p {
     color: white;
     letter-spacing: 5px;
     margin: 1vw 0 1vw 0;
+    padding: 0 3%;
 
 }
 
@@ -1025,14 +1029,11 @@ blockquote {
     background-repeat: no-repeat;
 }
 
-#intro_cv {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0 15%;
-}
+
 
 #om_mig {
     padding: 0 2%;
+    margin: 2% 15%;
 }
 
 #om_mig_img {
@@ -1040,7 +1041,7 @@ blockquote {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 35vw;
-    width: 50vw;
+    width: 66vw;
 }
 
 #om_mig p {
